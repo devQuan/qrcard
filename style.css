@@ -1,0 +1,79 @@
+* {
+     box-sizing: border-box;
+}
+
+
+/* 
+================================
+Base Styles
+================================
+*/
+
+body {
+  background: hsl(212, 45%, 89%);
+  font-family: 'Outfit', 'sans-serif';
+  font-size: 100%;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* 
+================================
+Layout
+================================
+*/
+
+
+.card-bg {
+  background: hsl(0, 0%, 100%);
+  width: 350px;
+  padding: 1.1rem 1.1rem 2rem 1.1rem;
+  border-radius: 20px;
+}
+
+.card-image {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.card-title {
+  color: hsl(218, 44%, 22%);
+  font-size: 1.6rem;
+}
+
+.card-text {
+  margin-bottom: 1rem;
+  color: hsl(220, 15%, 55%);
+  font-size: 1.2rem ;
+}
+
+.card-title,
+.card-text {
+  text-align: center;
+}
+
+/* 
+================================
+Additional Styles
+================================
+*/
+
+.attribution { 
+  font-size: .7rem; 
+  text-align: center; 
+  color: hsl(218, 44%, 22%);
+  margin-top: 50px;
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
